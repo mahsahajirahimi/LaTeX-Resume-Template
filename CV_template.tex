@@ -1,0 +1,175 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[letterpaper]{CV_class_file} % a4paper for A4
+
+% Programming skill bars
+\programmingSkills{
+    {$\textbullet$ Java / 2.0}, 
+    {$\textbullet$ Microsoft Office / 3.0}, 
+    {$\textbullet$ Linux $\textbullet$ SQL $\textbullet$ Git / 4.0}, 
+    {$\textbullet$ Docker / 5.0}, 
+    {$\textbullet$ Python / 6.0}}
+\vspace{10mm}
+% language skill bars
+\languageSkills{
+    { German (A2 - Elementary Level) / 2.5 }, 
+    { English (C1 - Professional Work Ability) / 5}, 
+    { Persian (C2 - Native Language) / 6}}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+\profilepic{profile.png}% your photo
+\cvname{\hspace{-0.5cm} \newline your name} % your name
+\cvjobtitle{\hspace{0.05cm} your position} %your position
+\cvlinkedin{your linkdin ID}
+\cvgithub{your github ID}
+\cvnumberphone{+98 111 111 1111} % Phone number
+\cvsite{city / country} % Where you live
+\cvmail{your-email@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Printing sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+   	\twentyitem
+	    {2012 Sep}
+	    {2018 Jan}
+	    {\hspace{0.2cm}Bachelor of Science, Industrial Engineering}
+	    {\href{http://www.ie.boun.edu.tr/}{\hspace{0.27cm} \textbf{ABC University} }}
+	    {}
+	    {\begin{itemize}
+			\item Took Statistics, Data Mining \& Time Series Forecasting courses.
+			\item Graduation project: Forecasted hourly electricity consumption using Machine Learning algorithms.
+		\end{itemize}} 
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PROFESSIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Professional Experience}
+
+\begin{twenty}
+    \twentyitem
+        {Jan 2021}
+        {Present}
+        {\hspace{0.3cm}Senior Data Scientist}
+        {\textbf{XYZ Company}}
+        {}
+        {\begin{itemize}
+            \item Developed and deployed machine learning models to optimize business processes.
+            \item Built a recommendation system that improved user engagement by 20\%.
+            \item Collaborated with cross-functional teams to deliver data-driven solutions.
+        \end{itemize}}
+    \\
+    \twentyitem
+        {Jun 2018}
+        {Dec 2020}
+        {\hspace{0.3cm}Data Analyst}
+        {\textbf{ABC Corporation}}
+        {}
+        {\begin{itemize}
+            \item Analyzed large datasets to identify trends and provide actionable insights.
+            \item Created interactive dashboards using Tableau and Power BI.
+            \item Automated data cleaning and reporting processes using Python.
+        \end{itemize}}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 HONORS AND AWARDS
+%----------------------------------------------------------------------------------------
+\section{Honors and Awards}
+
+\begin{twenty}
+    \twentyitem
+        {2020}
+        {}
+        {\hspace{0.3cm}Employee of the Year}
+        {\textbf{XYZ Company}}
+        {}
+        {Recognized for outstanding contributions to data science projects.}
+    \\
+    \twentyitem
+        {2019}
+        {}
+        {\hspace{0.3cm}Best Paper Award}
+        {\textbf{International Conference on Data Science}}
+        {}
+        {Awarded for research on "Advanced Machine Learning Techniques for Predictive Analytics."}
+\end{twenty}
+
+\makeseconda % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\section{Publications}
+
+\begin{twenty}
+    \twentyitem
+        {2020}
+        {}
+        {\hspace{0.3cm}"Advanced Machine Learning Techniques for Predictive Analytics"}
+        {\textbf{Journal of Data Science}}
+        {}
+        {Published in the International Journal of Data Science.}
+    \\
+    \twentyitem
+        {2019}
+        {}
+        {\hspace{0.3cm}"A Comparative Study of Machine Learning Algorithms"}
+        {\textbf{Conference on Artificial Intelligence}}
+        {}
+        {Presented at the International Conference on Artificial Intelligence.}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 ACADEMIC SERVICE
+%----------------------------------------------------------------------------------------
+\section{Academic Service}
+
+\begin{twenty}
+    \twentyitem
+        {2021}
+        {}
+        {\hspace{0.3cm}Reviewer}
+        {\textbf{Journal of Machine Learning Research}}
+        {}
+        {Reviewed research papers on machine learning and data science.}
+    \\
+    \twentyitem
+        {2020}
+        {}
+        {\hspace{0.3cm}Mentor}
+        {\textbf{Data Science Bootcamp}}
+        {}
+        {Mentored students in data science and machine learning projects.}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------
+\section{Research Interests}
+
+\begin{twenty}
+    \twentyitemshort
+        {}
+        {\begin{itemize}
+            \item Machine Learning and Deep Learning.
+            \item Natural Language Processing (NLP).
+            \item Big Data Analytics and Cloud Computing.
+            \item Explainable AI (XAI) and Ethical AI.
+        \end{itemize}}
+\end{twenty}
+
+\end{document}
